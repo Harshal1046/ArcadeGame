@@ -1,3 +1,52 @@
 body {
     text-align: center;
+    background: #ffffff url('../images/geometry2.png');
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.modal h2 {
+    color: #455a64;
+    font-weight: lighter;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.modal p {
+    font-weight: lighter;
+    font-size: .85em;
+    margin: 0;
+    margin-bottom: 8px !important;
+    color: #757575;
+}
+
+.modal button {
+    width: 150px;
+    padding: 5px;
+    height: 50px;
+    color: #fff;
+    background-color: #009688;
+    font-size: 1.4em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
