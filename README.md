@@ -17,6 +17,6 @@
 
 * Avoid the bugs, they kill you And You've To start From Beginning.
 
-## Images :
+## Image :
 
 ![Arcade Game](images/game.png)
