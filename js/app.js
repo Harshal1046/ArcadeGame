@@ -2,8 +2,10 @@
 const modalContainer = document.querySelector(".modal");
 
 
+
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
+    'use strict';
 
     // Variables applied to each of our instances go here,
     this.x = x;
@@ -84,6 +86,7 @@ Player.prototype.handleInput = function(keyPress) {
 
 
     // TO Go Back to Starting Poaition After Reaches Water(End)
+    // And Display Result
     if(this.y < 0){
         setTimeout(() => {
             this.x = 202;
